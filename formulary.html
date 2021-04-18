@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header><h1 id="title">Survey to improve interface</h1><p id="description">Thank you for helping us to improve our services</p></header>
+<body>
+    <main>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label> 
+        <input type="name" id="name" placeholder="Enter your name"> <br>
+        <label for="email" id="email-label">Email</label> 
+        <input type="email" id="email" placeholder="Enter your email"> <br>
+        <label for="age" id="age-label">Age</label>
+        <input type="number" name="age" min="10" max="99" id="number" placeholder="age"> <br>
+        <label for="dropdown">Which option describes your current role?</label>
+        <select name="recommend" id="dropdown"> <br>
+        <option value="select">Select an option</option>
+        <option value="student">Student</option>
+        <option value="fullwork">Working full time</option>
+        <option value="partwork">Working part-time</option>
+        <option value="solowork">Self-Employed</option>
+        <option value="nowork">Not working</option>
+        </select>
+        <p>Would you recommend us?</p>
+        <label>
+        <input class="input-radio" type="radio" name="user-recommend" value="Definitely">
+        Definitely <br>
+        </label>
+        <label>
+        <input class="input-radio" type="radio" name="user-recommend" value="Maybe">
+        Maybe <br>
+        </label>
+        <label>
+        <input class="input-radio" type="radio" name="user-recommend" value="not-sure">
+        Not sure <br>
+        </label>
+        <p>What would you improve?</p>
+        <input type="checkbox" id="first" name="front-end" value="front">
+        <label for="vehicle1">Front End Projects</label><br>
+        <input type="checkbox" id="second" name="back-end" value="back">
+        <label for="vehicle1">Back End Projects</label><br>
+        <input type="checkbox" id="third" name="challenges" value="challenge">
+        <label for="vehicle1">Challenges</label><br>
+        <input type="checkbox" id="fourth" name="wiki" value="info">
+        <label for="vehicle1">Our wiki</label><br>
+        <input type="checkbox" id="fifth" name="forum" value="forum2">
+        <label for="vehicle1">The forum</label><br>
+        <input type="checkbox" id="sixth" name="videos" value="videos2">
+        <label for="vehicle1">Videos/label><br>
+        <input type="checkbox" id="seven" name="community" value="people">
+        <label for="vehicle1">Community</label><br>
+        <input type="checkbox" id="eight" name="courses" value="courses2">
+        <label for="vehicle1">Courses</label><br>
+        <p>Any comments or suggestions?</p><br>
+        <textarea name="text" id="textarea" cols="60" rows="10"></textarea><br>
+        <button id=sumbit class="submit-button" type="submit">Submit</button><br>
+    </form>
+</main>
+</body>
+</html>
