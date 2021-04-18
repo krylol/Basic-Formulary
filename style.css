@@ -1,0 +1,126 @@
+.container{
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    max-width: 720px;
+}
+header{
+    text-align: center;
+    background-color: #005C69;
+    margin:auto;
+}
+main{
+    font-size: 20px;
+}
+body{
+    background-color: #0B0014;
+}
+#survey-form{
+    box-sizing: border-box;
+    background-color: #005C69
+}
+
+#name{
+display: block;
+width: 70%;
+height: 1.75rem;
+padding: 0.250rem 0.75rem;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+margin-left: 17px;
+}
+#email{
+display: block;
+width: 70%;
+height: 1.75rem;
+padding: 0.250rem 0.75rem;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+margin-left: 17px;
+}
+#number{
+display: block;
+width: 70%;
+height: 1.75rem;
+padding: 0.250rem 0.75rem;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+margin-left: 17px;
+} 
+#name-label{margin-left: 17px;}
+#email-label{margin-left: 17px;}
+#number-label{margin-left: 17px;}
+#dropdown{
+    display: block;
+width: 40%;
+height: 1.75rem;
+padding: 0.250rem 0.75rem;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+margin-left: 17px;
+}
+#role{
+    margin-left: 17px;
+}
+#radiop{
+    margin-left: 17px;
+}
+
+.input-radio{margin-left: 17px;}
+#first{
+    margin-left: 17px;
+}
+#first{
+    margin-left: 17px;
+}
+#second{
+    margin-left: 17px;
+}
+#third{
+    margin-left: 17px;
+}
+#fourth{
+    margin-left: 17px;
+}
+#fifth{
+    margin-left: 17px;
+}
+#sixth{
+    margin-left: 17px;
+}
+#seven{
+    margin-left: 17px;
+}
+#eight{
+    margin-left: 17px;
+}
+#changes{margin-left: 17px;}
+#cat{margin-left: 17px;}
+#textarea{
+min-height: 120px;
+width: 80%;
+padding: 0.625rem;
+resize: vertical;
+margin-left: 17px;
+}
+.submit-button{
+display: block;
+width: 100%;
+padding: 0.75rem;
+background: #005C69;
+color: inherit;
+border-radius: 2px;
+cursor: pointer;
+color: red;
+}

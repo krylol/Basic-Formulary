@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<div class="container">
 <header><h1 id="title">Survey to improve interface</h1><p id="description">Thank you for helping us to improve our services</p></header>
 <body>
     <main>
     <form id="survey-form">
-        <label for="name" id="name-label">Name</label> 
-        <input type="name" id="name" placeholder="Enter your name"> <br>
-        <label for="email" id="email-label">Email</label> 
-        <input type="email" id="email" placeholder="Enter your email"> <br>
-        <label for="age" id="age-label">Age</label>
-        <input type="number" name="age" min="10" max="99" id="number" placeholder="age"> <br>
-        <label for="dropdown">Which option describes your current role?</label>
+        <label for="name" id="name-label">Name</label><br>
+        <input type="name" id="name" placeholder="Enter your name" required=""> <br>
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required=""> <br>
+        <label for="age" id="number-label">Age</label><br>
+        <input type="number" name="age" min="10" max="99" id="number" placeholder="Age"> <br>
+        <label for="dropdown" id="role">Which option describes your current role?</label><br>
         <select name="recommend" id="dropdown"> <br>
         <option value="select">Select an option</option>
         <option value="student">Student</option>
@@ -25,7 +27,7 @@
         <option value="solowork">Self-Employed</option>
         <option value="nowork">Not working</option>
         </select>
-        <p>Would you recommend us?</p>
+        <p id=radiop>Would you recommend us?</p>
         <label>
         <input class="input-radio" type="radio" name="user-recommend" value="Definitely">
         Definitely <br>
@@ -38,7 +40,7 @@
         <input class="input-radio" type="radio" name="user-recommend" value="not-sure">
         Not sure <br>
         </label>
-        <p>What would you improve?</p>
+        <p id="changes">What would you improve?</p>
         <input type="checkbox" id="first" name="front-end" value="front">
         <label for="vehicle1">Front End Projects</label><br>
         <input type="checkbox" id="second" name="back-end" value="back">
@@ -55,10 +57,11 @@
         <label for="vehicle1">Community</label><br>
         <input type="checkbox" id="eight" name="courses" value="courses2">
         <label for="vehicle1">Courses</label><br>
-        <p>Any comments or suggestions?</p><br>
-        <textarea name="text" id="textarea" cols="60" rows="10"></textarea><br>
-        <button id=sumbit class="submit-button" type="submit">Submit</button><br>
+        <p id="cat">Any comments or suggestions?</p><br>
+        <textarea name="text" id="textarea" cols="60" rows="10"></textarea><br><br>
+        <button id="submit" class="submit-button" type="submit">Submit</button><br>
     </form>
 </main>
+</div>
 </body>
 </html>
